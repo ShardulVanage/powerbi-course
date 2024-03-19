@@ -50,7 +50,7 @@ function Author() {
               Instructor
             </SectionHeading>
             <p className="mt-8 text-left font-display text-3xl font-extrabold tracking-tight text-slate-900 sm:text-6xl ">
-              <span className="block bg-clip-text text-transparent  bg-gradient-to-r from-yellow-400/70 via-yellow-500 to-yellow-900 drop-shadow-md">Satyajit Pattnaik –</span> Hey
+              <span className="block bg-clip-text text-transparent  bg-gradient-to-r from-yellow-400/70 via-yellow-500/70 to-yellow-200 drop-shadow-md">Satyajit Pattnaik –</span> Hey
               there, Im the Creator behind Microsoft Power BI Masters - 2024 Edition.
             </p>
             <p className="mt-4 text-lg text-left tracking-tight text-slate-700 [&>span]:font-medium">
