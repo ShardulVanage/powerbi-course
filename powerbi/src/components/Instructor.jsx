@@ -37,6 +37,7 @@ function Author() {
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-white/10 sm:bg-white drop-shadow-md pt-px sm:rounded-6xl rounded-3xl">
+          <div className='flex flex-row justify-center items-center'>
           <div className=" drop-shadow-md relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-yellow-500 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
             <img
               className="absolute inset-0 h-full w-full object-cover "
@@ -44,27 +45,47 @@ function Author() {
               alt=""
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem "
             />
+            
           </div>
-          <div className=" px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32 text-left">
+          <div className=" drop-shadow-md relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-yellow-500 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
+            <img
+              className="absolute inset-0 h-full w-full object-cover "
+              src='https://res.cloudinary.com/dtsuvx8dz/image/upload/v1719045529/aakuuqihya9aj6kfsskv.jpg'
+              alt=""
+              sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem "
+            />
+          </div>
+          </div>
+          <div className=" px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-12 text-left">
+            <div className='flex flex-row justify-between items-center'> 
             <SectionHeading className='text-black bg-[#FEECAC]   border-double border-4 border-black' number="5" id="author-title">
               Instructor
             </SectionHeading>
-            <p className="mt-8 text-left font-display text-3xl font-extrabold tracking-tight text-slate-900 sm:text-6xl ">
-              <span className="block bg-clip-text text-transparent  bg-gradient-to-r from-yellow-400/70 via-yellow-500/70 to-yellow-200 drop-shadow-md">Satyajit Pattnaik –</span> Hey
-              there, Im the Creator behind Microsoft Power BI Masters - 2024 Edition.
+            <SectionHeading className='text-black bg-[#FEECAC]   border-double border-4 border-black ' number="5" id="author-title">
+            Trainer
+            </SectionHeading> 
+            </div>
+            <p className="mt-8 text-left font-display text-3xl font-extrabold tracking-tight text-slate-900 sm:text-6xl ju ">
+              <span className="block bg-clip-text text-transparent  bg-gradient-to-r from-yellow-400/95 via-yellow-400/90 to-yellow-300 drop-shadow-sm pb-3 text-5xl text-center">Satyajit Pattnaik & Sangamesh KS</span> Hey
+              there, We are the Creator behind Microsoft Power BI Masters - 2024 Edition.
             </p>
-            <p className="mt-4 text-lg text-left tracking-tight text-slate-700 [&>span]:font-medium">
-              Certified Data Scientist & Tensorflow Certified Developer <br />
-                  Number of students trained so far: <span>10000+</span> <br />
-                                Average Trainer Score: <span>9+</span> <br />
-                          
-              <span>13+ years experience working in Data Analytics
-                 and Data Sciences </span>across different industry verticals including telecom, cyber security, insurance, e-commerce etc.
-                <span> Owner of more than 20+ data communities over the globe, and runs a small YouTube channel on my name having 65,000+ subscribers</span>
+          <div className='flex flex-col sm:flex-row justify-between items-start'>
+          <p className="mt-4 text-lg  tracking-tight text-slate-700 [&>span]:font-medium w-full px-2 text-justify">
+          Satyajit Pattnaik, a Certified Data Scientist and TensorFlow Certified Developer with over 13 years of experience in Data Analytics and Data Science. he has trained over 10,000 students,
+           consistently achieving an average trainer score of 9+. His expertise spans various industries, including telecom, cybersecurity, insurance, and e-commerce.
+            In addition to managing over 20 data communities worldwide, he also runs a popular YouTube channel with 65,000+ subscribers.
+           "
             </p>
-            <div className="mt-8 flex  justify-evenly  items-center flex-row ">
-            
-               <a
+            <p className="mt-4 text-lg text-justify tracking-tight text-slate-700 [&>span]:font-medium w-full px-2">
+            Sangamesh KS, the owner of an analytical firm in India, has over eight years of experience in market research, business development, and data science.
+             His firm offers a range of services including Microsoft Fabric Solution, Power BI, and other BI solutions, playing a crucial role in the success of numerous startups. 
+             Services provided by Sangamesh include expert data analysis, business intelligence solutions, data visualization and storytelling, client engagement and collaboration, 
+             industry trend insights, and a proven track record of success. Feel free to reach out to Sangamesh for any professional assistance you may require.
+            </p>
+          </div>
+            <div className="mt-8 mr-12 flex  justify-center  items-center flex-row ">
+            <div className='w-full '>
+            <a
                 href="https://www.linkedin.com/in/satyajitpattnaik/"
                 className=" sm:ml-16 inline-flex items-center text-base font-medium tracking-tight text-blue-400"
               >
@@ -72,14 +93,19 @@ function Author() {
                 <span className="sm:ml-4 pt-1 font-bold"> Linkedin</span>
              
               </a>
-              <a
-                href="https://www.youtube.com/c/SatyajitPattnaik"
-                className=" sm:ml-16 inline-flex items-center text-base font-medium tracking-tight text-red-500"
+            </div>
+            <div className='w-full'>
+            <a
+                href="https://www.linkedin.com/in/sangameshks/"
+                className=" sm:ml-16 inline-flex items-center text-base font-medium tracking-tight text-blue-400"
               >
-              <YoutubeIcon className="h-10 w-14 fill-current " />
-                <span className="ml-1 sm:ml-4 pt-1 font-bold"> Youtube</span>
+              <LinkdinIcon className="h-10 w-14 fill-current " />
+                <span className="ml-1 sm:ml-4 pt-1 font-bold"> Linkedin</span>
                 
               </a>
+            </div>
+             
+              
             </div>
           </div>
         </div>

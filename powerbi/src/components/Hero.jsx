@@ -21,9 +21,10 @@ export default function Hero() {
         </defs>
         <rect width="100%" height="100%" strokeWidth={0} fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" />
       </svg>
-      <div className="mx-auto w-full justify-evenly items-center px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+
+      <div className="mx-auto max-w-7xl w-full justify-evenly items-center px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-2 lg:py-40 ">
         
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
+        <div className="mx-auto max-w-7xl lg:mx-0 lg:max-w-3xl lg:flex-shrink-0 lg:pt-8">
           {/* <img
             className="h-11"
             src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1706986565/hqatxpsjdg3zeql20jfe.png"
@@ -51,7 +52,7 @@ export default function Hero() {
           </div>
           
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl font-JosefinSans">
-            Microsoft Power BI: A Complete Guide [2024 Edition]
+            Microsoft Power BI Master Class: A Complete Guide [2024 Edition]
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600 font-PTSerif">
             Transform Raw Data into Powerful Insights! Join our expert-led Power BI course and learn to visualize, analyze, and leverage data like never before.
@@ -90,15 +91,15 @@ export default function Hero() {
         </div>
 
 <div className='bg- flex  flex-col sm:flex-row  justify-center items-center py-2 pt-12 sm:pt-48'>
-                <div className='bg-slate-500/10 p-2 py-8 rounded-xl m-2   '>
-                        {/* <div className='grid grid-rows-2 grid-flow-col gap-4'>
+                {/* <div className='bg-slate-500/10 p-2 py-8 rounded-xl m-2   '>
+                         <div className='grid grid-rows-2 grid-flow-col gap-4'>
                             {pcontent.map(pcontents =>(
                                 <div  key={pcontents.url} className=' flex justify-start items-center bg-white/20 p-2 rounded-2xl sm:text-base text-xs py-3 '>
                                         <img src={pcontents.url} height={30} width={30} alt="pp" />
                                         <h1 className='sm:text-xl pl-4  text-xs'>{pcontents.text}</h1>
                                  </div>
                             ))}
-                        </div> */}
+                        </div> 
 
                         <div className='flex flex-row justify-center items-center'>
                             <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1709556612/cnkb4zr9felsyt4mywhr.png" height={200} width={200} alt="" />
@@ -118,7 +119,7 @@ export default function Hero() {
                             </div>
                         </div>  
 
-                </div>
+                </div> */}
                 </div>
         
       </div>

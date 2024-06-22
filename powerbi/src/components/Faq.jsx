@@ -1,3 +1,5 @@
+import Table from "./Table"
+
 const faqs = [
   {
     question: "I don't have coding background or experience in IT as such how this will help me ?",
@@ -64,6 +66,7 @@ export default function Faq() {
              <span className='drop-shadow-lg'>Download Syllabus </span> 
             </a>
               </div>
+              <Table/>
       </div>
        
     </div>
